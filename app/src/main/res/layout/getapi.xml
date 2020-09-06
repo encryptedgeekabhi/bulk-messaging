@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="82dp"
+            android:autoSizeTextType="uniform"
+            android:text="Almost Done"
+            android:textAlignment="center"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/api_btn"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:background="@color/colorPrimary"
+            android:textColor="#dce2e3"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Generate Key" />
+
+        <TextView
+            android:id="@+id/api_data"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/api_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="54dp"
+            android:autoSizeTextType="uniform"
+            android:text="Your Key here"
+            android:textAlignment="center" />
+    </RelativeLayout>
+</LinearLayout>

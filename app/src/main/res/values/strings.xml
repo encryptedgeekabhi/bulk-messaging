@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PATRON</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_shortcut">Shortcut options</string>
+    <string name="action_settings">Settings</string>
+    <string name="dobhint">dob_/_/_</string>
+    <string name="mrghint">marriage_/_/_</string>
+    <string name="branch">Select Branch here</string>
+    <string name="state">w</string>
+</resources>

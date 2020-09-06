@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/pin_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="158dp"
+            android:ems="10"
+            android:inputType="number|numberDecimal"
+            android:textAlignment="center"
+
+            android:maxLength="4"
+             />
+
+        <Button
+            android:id="@+id/pin_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pin_data"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="76dp"
+            android:background="@color/colorPrimary"
+            android:textColor="#dce2e3"
+            android:text="Set" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="23dp"
+            android:text="User Pin Setup"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+    </RelativeLayout>
+</LinearLayout>

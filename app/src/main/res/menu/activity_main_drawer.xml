@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="all">
+        <item android:title="Contacts">
+            <menu>
+                <item
+
+                    android:id="@+id/DBcontacts"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="DBbbook" />
+                <item
+                    android:id="@+id/Phonecontacts"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="PhoneBook" />
+                <item
+                    android:id="@+id/onlinecontacts"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="ON netbook" />
+            </menu>
+        </item>
+        <item android:title="Compose MSG">
+        <menu>
+        <item
+            android:id="@+id/tophonebook"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Send To Phonebook" />
+        <item
+            android:id="@+id/towebbook"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Send to webbook" />
+        </menu>
+        </item>
+    </group>
+
+    <item android:title="Feedback">
+        <menu>
+
+            <item
+                android:id="@+id/feedback"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Feedback                        ▶" />
+
+        <item
+            android:id="@+id/feedbackdetail"
+            android:visible="false"
+            android:title="  > Show Feedback" />
+        <item
+            android:id="@+id/byday"
+            android:visible="false"
+
+            android:title="  > Anniversaries/birthday" />
+
+        </menu>
+
+    </item>
+    <item android:title="Communicate">
+        <menu>
+
+        <item
+                android:id="@+id/help"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Contact us" />
+        </menu>
+    </item>
+
+</menu>
+

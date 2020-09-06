@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/feedback"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:background="#b8de3f"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:text="Insert New Contact"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold" />
+    <ScrollView android:layout_marginTop="100dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+
+        <LinearLayout
+            android:id="@+id/addhere"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/round"
+                android:hint="Name"
+
+                android:inputType="text"
+                android:textColor="#6bf474" />
+
+            <EditText
+                android:id="@+id/mobile"
+                android:textAlignment="center"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+
+
+                android:background="@drawable/round"
+                android:hint="Moble"
+
+                android:inputType="number|numberDecimal"
+                android:maxLength="10"
+                android:textColor="#6bf474" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round"
+
+
+                android:hint="Email"
+                android:textColor="#6bf474" />
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="300dp"
+                android:textColor="#6bf474"
+                android:textAlignment="center"
+                android:layout_height="80dp"
+
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round"
+                android:ems="10"
+                android:hint="Address"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/remarks"
+                android:textAlignment="center"
+                android:textColor="#6bf474"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round"
+
+                android:hint="PUT YOUR COMMENT HERE"
+                android:inputType="textMultiLine" />
+            <EditText
+                android:id="@+id/dob"
+
+                android:textAlignment="center"
+                android:textColor="#6bf474"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="191dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="@string/dobhint"
+
+                android:focusable="false"
+                android:inputType="date" />
+
+            <EditText
+                android:textAlignment="center"
+                android:textColor="#6bf474"
+                android:id="@+id/marriage"
+                android:layout_width="193dp"
+                android:layout_height="40dp"
+                android:focusable="false"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:hint="@string/mrghint"
+                android:inputType="date"
+                />
+
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorPrimary"
+                android:text="Submit" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+

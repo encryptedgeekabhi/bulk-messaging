@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+
+        android:layout_marginTop="2dp"
+        android:background="#B22222"
+        android:text="About You"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <ScrollView android:layout_marginTop="100dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+
+        <LinearLayout
+            android:id="@+id/addhere"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+            <EditText
+                android:id="@+id/mobile"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round"
+                android:maxLength="10"
+                android:hint="Mobile"
+                android:focusableInTouchMode="true"
+
+                android:inputType="number|numberDecimal"
+                />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/round"
+                android:hint="Name"
+
+                android:inputType="text"
+                 />
+
+            <EditText
+                android:id="@+id/email"
+
+                android:textAlignment="center"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_marginTop="20dp"
+                android:hint="Email"
+                android:background="@drawable/round"
+                />
+
+
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="300dp"
+
+                android:textAlignment="center"
+                android:layout_height="80dp"
+
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round"
+                android:ems="10"
+                android:hint="Address"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/dob"
+
+                android:textAlignment="center"
+
+                android:layout_gravity="center_horizontal"
+                android:layout_width="191dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="@string/dobhint"
+
+                android:focusable="false"
+                android:inputType="date" />
+
+            <EditText
+                android:textAlignment="center"
+
+                android:id="@+id/marriage"
+                android:layout_width="193dp"
+                android:layout_height="40dp"
+                android:focusable="false"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:hint="@string/mrghint"
+                android:inputType="date"
+                />
+
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="200dp"
+
+                android:layout_height="40dp"
+android:background="@drawable/back"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textColor="#ffff"
+                android:text="Submit" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+

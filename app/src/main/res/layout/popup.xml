@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/feedback"
+    tools:context="com.example.hp.PATRON.PopUp">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:backgroundTint="?android:attr/panelBackground"
+        android:text="Contacts Menu"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/round"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:textAlignment="center"
+        android:inputType="text"
+        android:hint="Name" />
+
+    <EditText
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/phonenumber"
+        android:layout_width="match_parent"
+        android:background="@drawable/round"
+        android:textAlignment="center"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:background="@drawable/round"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="email"
+        android:inputType="text" />
+
+    <EditText
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/remarks"
+        android:textAlignment="center"
+        android:background="@drawable/round"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:hint="Remarks"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#dce2e3"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#dce2e3"
+        android:text="Exit" />
+
+</LinearLayout>

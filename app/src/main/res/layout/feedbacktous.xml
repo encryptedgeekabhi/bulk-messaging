@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+   >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="142dp"
+        android:background="#B22222"
+        android:text="Feedback To Us"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffff"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+
+        android:layout_marginTop="65dp"
+        android:text="Your Feedback is valuble to Us"
+        android:textAlignment="center"
+        android:textColor="#11aaaa"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp">
+
+
+        <LinearLayout
+            android:id="@+id/addhere"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/remarks"
+                android:layout_width="330dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/round"
+                android:ems="10"
+                android:hint="Remarks"
+                android:inputType="textMultiLine"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@id/scrollView"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center|bottom"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttonback"
+        android:text="SUBMIT"
+        android:textColor="#ffff"/>
+
+</RelativeLayout>
